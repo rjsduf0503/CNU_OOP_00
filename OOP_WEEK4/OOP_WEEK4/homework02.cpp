@@ -1,6 +1,6 @@
 #include<iostream>
 
-void swap(int &first, int &second) {
+void swap(int &first, int &second) { //참조 연산자인 reference 사용
     int temp = first;
     first = second;
     second = temp;
