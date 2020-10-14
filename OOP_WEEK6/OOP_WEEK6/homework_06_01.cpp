@@ -41,7 +41,7 @@ void My_cat::show_status() const {
 	std::cout << " Weight : " << weight << std::endl;
 }
 int main() {
-	My_cat cat1("Nabi");	//Cat 1 »ý¼º
+	My_cat cat1("Nabi");	//Cat 1 
 	cat1.show_status();
 
 	cat1.eat(4);
