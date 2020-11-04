@@ -44,10 +44,10 @@ public:
 
 
 int main(void) {
-	Context *context = new Context(new OperationAdd());
-	cout << "10 + 5 = " <<context->excuteStrategy(10,5) << endl;
-	context = new Context(new OperationSubstract());
-	cout << "10 - 5 = " << context->excuteStrategy(10, 5) << endl;
-	context = new Context(new OperationMultiply());
-	cout << "10 * 5 = " << context->excuteStrategy(10, 5) << endl;
+	Context context = Context(new OperationAdd());
+	cout << "10 + 5 = " <<context.excuteStrategy(10,5) << endl;
+	context = Context(new OperationSubstract());
+	cout << "10 - 5 = " << context.excuteStrategy(10, 5) << endl;
+	context = Context(new OperationMultiply());
+	cout << "10 * 5 = " << context.excuteStrategy(10, 5) << endl;
 }
