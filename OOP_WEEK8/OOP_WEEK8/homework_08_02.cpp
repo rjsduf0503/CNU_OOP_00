@@ -44,7 +44,7 @@ public:
 
 
 int main(void) {
-	Context context = Context(new OperationAdd());
+	Context context = Context(new OperationAdd()); //¼öÁ¤
 	cout << "10 + 5 = " <<context.excuteStrategy(10,5) << endl;
 	context = Context(new OperationSubstract());
 	cout << "10 - 5 = " << context.excuteStrategy(10, 5) << endl;
